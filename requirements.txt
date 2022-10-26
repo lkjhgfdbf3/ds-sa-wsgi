@@ -1,0 +1,9 @@
+# certifi @ file:///C:/b/abs_ac29jvt43w/croot/certifi_1665076682579/work/certifi
+gunicorn==20.1.0
+wincertstore==0.2
+click==8.0.3
+Flask==2.0.2
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+Werkzeug==2.0.2
