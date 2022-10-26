@@ -11,18 +11,4 @@ def index_num(num):
 
 @app.route('/')
 def index():
-   return render_template('child.html')
-
-def create_app():
-    app = Flask(__name__)
-
-    from yourapplication.views.admin import admin
-    from yourapplication.views.frontend import frontend
-    app.register_blueprint(admin)
-    app.register_blueprint(frontend)
-
-    return app
-
-if __name__ == "__main__":
-  app = create_app()
-  app.run()
+    return render_template('child.html')
